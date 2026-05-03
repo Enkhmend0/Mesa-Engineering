@@ -1,0 +1,18 @@
+# macOS
+.DS_Store
+
+# Local caches
+.npm-cache/
+node_modules/
+
+# Editor / OS
+*.swp
+*~
+Thumbs.db
+
+# Local previews / screenshots not part of the deploy
+about-mobile-contact-preview.png
+
+# Stray non-asset files that ended up in the logos folder
+Partner Company Logos/Lecture_LogisticRegression.pdf
+Partner Company Logos/Open-Source DeFi Banking Codebases Similar to WeFi.pdf

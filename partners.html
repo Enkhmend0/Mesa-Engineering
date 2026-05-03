@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="mn">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>МЕСА ИНЖЕНЕРИНГ | Түншүүд</title>
+  <meta name="description"
+    content="Mesa Engineering - Trusted partnerships with leading Mongolian, Russian and Chinese companies in energy and mining.">
+  <link rel="stylesheet" href="mesa-theme.css?v=20260504mobilepolish">
+</head>
+
+<body class="page-partners">
+
+  <!-- NAV -->
+  <nav class="nav" id="navbar">
+    <div class="nav-pill">
+      <a href="index.html" class="nav-logo">
+        <img src="Mesa_logo.png" alt="Mesa">
+        <div class="nav-logo-text">MESA ENGINEERING</div>
+      </a>
+      <div class="nav-center">
+        <a href="index.html" class="nav-link" data-mn="Бидний тухай" data-en="About Us">Бидний тухай</a>
+        <a href="partners.html" class="nav-link active" data-mn="Түншүүд" data-en="Partners">Түншүүд</a>
+        <a href="projects.html" class="nav-link" data-mn="Төслүүд" data-en="Projects">Төслүүд</a>
+      </div>
+      <div class="nav-right">
+        <button class="lang-btn active" onclick="setLang('mn')">МОН</button>
+        <button class="lang-btn" onclick="setLang('en')">ENG</button>
+        <button class="mobile-toggle" onclick="toggleMobile()"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+  </nav>
+  <div class="mobile-menu" id="mobileMenu">
+    <button class="mobile-close" onclick="toggleMobile()" aria-label="Close menu">✕</button>
+    <div class="mobile-menu-header">
+      <img src="Mesa_logo.png" alt="Mesa">
+      <div class="mobile-brand">MESA ENGINEERING</div>
+    </div>
+    <nav class="mobile-menu-links">
+      <a href="index.html" data-mn="Бидний тухай" data-en="About Us">Бидний тухай</a>
+      <a href="partners.html" class="active" data-mn="Түншүүд" data-en="Partners">Түншүүд</a>
+      <a href="projects.html" data-mn="Төслүүд" data-en="Projects">Төслүүд</a>
+    </nav>
+    <div class="mobile-lang">
+      <button class="lang-btn active" onclick="setLang('mn')">МОН</button>
+      <button class="lang-btn" onclick="setLang('en')">ENG</button>
+    </div>
+    <div class="mobile-menu-footer">
+      <a href="tel:+97699100872">+976 9910 0872</a>
+      <span data-mn="Меса инженеринг ХХК" data-en="Mesa Engineering LLC">Меса инженеринг ХХК</span>
+    </div>
+  </div>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-inner">
+      <div class="hero-left">
+        <div class="hero-overline" data-mn="Эрчим хүч & Уул уурхай" data-en="Energy & Mining">Эрчим хүч & Уул уурхай
+        </div>
+        <h1 class="hero-title" data-mn='Инженерийн <em>төгс шийдэл</em> таны найдвартай түнш'
+          data-en='Engineering <em>excellence,</em> your trusted partner'>Инженерийн <em>төгс шийдэл</em> таны
+          найдвартай түнш</h1>
+        <p class="hero-desc"
+          data-mn="Монголын эрчим хүч, уул уурхайн салбарт 2013 оноос тасралтгүй үйл ажиллагаа явуулж, дэлхийн тэргүүлэгч технологийг нэвтрүүлж ирсэн үндэсний компани."
+          data-en="A national company continuously operating in Mongolia's energy and mining sectors since 2013, introducing world-leading technology.">
+          Монголын эрчим хүч, уул уурхайн салбарт 2013 оноос тасралтгүй үйл ажиллагаа явуулж, дэлхийн тэргүүлэгч
+          технологийг нэвтрүүлж ирсэн үндэсний компани.</p>
+        <div class="hero-actions">
+          <a href="projects.html" class="btn btn-accent" data-mn="Гүйцэтгэсэн ажлуудаас →" data-en="Our Projects →">Гүйцэтгэсэн
+            ажлуудаас →</a>
+          <a href="index.html" class="btn btn-outline" data-mn="Дэлгэрэнгүй" data-en="Learn More">Дэлгэрэнгүй</a>
+        </div>
+      </div>
+      <div class="hero-stats">
+        <div class="hero-stat-card">
+          <div class="hero-stat-num">13+</div>
+          <div class="hero-stat-label" data-mn="Жилийн туршлага" data-en="Years">Жилийн туршлага</div>
+        </div>
+        <div class="hero-stat-card">
+          <div class="hero-stat-num">50+</div>
+          <div class="hero-stat-label" data-mn="Төслүүд" data-en="Projects">Төслүүд</div>
+        </div>
+        <div class="hero-stat-card">
+          <div class="hero-stat-num">20+</div>
+          <div class="hero-stat-label" data-mn="Түншүүд" data-en="Partners">Түншүүд</div>
+        </div>
+        <div class="hero-stat-card">
+          <div class="hero-stat-num">2</div>
+          <div class="hero-stat-label" data-mn="Зөвшөөрөл" data-en="Licenses">Зөвшөөрөл</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES INTRO -->
+  <section class="intro-strip">
+    <div class="intro-strip-inner">
+      <div class="intro-item reveal">
+        <div class="intro-icon">⚡</div>
+        <h3 data-mn="Тоног төхөөрөмж" data-en="Equipment Supply">Тоног төхөөрөмж</h3>
+        <p data-mn="Эрчим хүч, уул уурхайн тоног төхөөрөмжийг ОХУ, БНХАУ-аас шууд нийлүүлнэ"
+          data-en="Direct supply of energy and mining equipment from Russia and China">Эрчим хүч, уул уурхайн тоног
+          төхөөрөмжийг ОХУ, БНХАУ-аас шууд нийлүүлнэ</p>
+      </div>
+      <div class="intro-item reveal">
+        <div class="intro-icon">🔧</div>
+        <h3 data-mn="Угсралт & Туршилт" data-en="Installation & Testing">Угсралт & Туршилт</h3>
+        <p data-mn="0.4–110 кВ хүртэлх цахилгаан шугам, дэд станцын угсралт, туршилт тохируулга"
+          data-en="Installation and commissioning of 0.4–110 kV power lines and substations">0.4–110 кВ хүртэлх
+          цахилгаан шугам, дэд станцын угсралт, туршилт тохируулга</p>
+      </div>
+      <div class="intro-item reveal">
+        <div class="intro-icon">🛡️</div>
+        <h3 data-mn="Тусгай зөвшөөрөл" data-en="Licensed Operations">Тусгай зөвшөөрөл</h3>
+        <p data-mn="Эрчим хүчний яамнаас олгосон тусгай зөвшөөрлүүдтэй, мэргэжлийн баг хамт олон"
+          data-en="Licensed by the Ministry of Energy with certified professional team">Эрчим хүчний яамнаас олгосон
+          тусгай зөвшөөрлүүдтэй, мэргэжлийн баг хамт олон</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="sec sec-gray">
+    <div class="sec-inner">
+      <div class="sec-header reveal">
+        <div>
+          <div class="sec-overline" data-mn="Үйл ажиллагаа" data-en="What we do">Үйл ажиллагаа</div>
+          <h2 class="sec-title" data-mn='Манай <em>үйл ажиллагааны чиглэл</em>' data-en='Our <em>services</em>'>Манай
+            <em>үйл ажиллагааны чиглэл</em></h2>
+        </div>
+        <a href="index.html" class="sec-link" data-mn="Дэлгэрэнгүй →" data-en="Learn more →">Дэлгэрэнгүй →</a>
+      </div>
+      <div class="services-grid">
+        <div class="svc-card reveal">
+          <div class="svc-icon">⚡</div>
+          <h3 data-mn="Дэд станц & Трансформатор" data-en="Substations & Transformers">Дэд станц & Трансформатор</h3>
+          <p data-mn="35/10 кВ, 6/0.4 кВ дэд станцын бүрэн угсралт, суурилуулалт, туршилт, тохируулга"
+            data-en="Full installation, commissioning and testing of 35/10 kV and 6/0.4 kV substations">35/10 кВ, 6/0.4
+            кВ дэд станцын бүрэн угсралт, суурилуулалт, туршилт, тохируулга</p>
+        </div>
+        <div class="svc-card reveal">
+          <div class="svc-icon">🏗️</div>
+          <h3 data-mn="Дамжуулах шугам" data-en="Transmission Lines">Дамжуулах шугам</h3>
+          <p data-mn="6–110 кВ цахилгаан дамжуулах агаарын шугам, кабель шугамын барилга угсралт"
+            data-en="Construction and installation of 6–110 kV overhead and cable transmission lines">6–110 кВ цахилгаан
+            дамжуулах агаарын шугам, кабель шугамын барилга угсралт</p>
+        </div>
+        <div class="svc-card reveal">
+          <div class="svc-icon">🏭</div>
+          <h3 data-mn="Генератор & Компрессор" data-en="Generators & Compressors">Генератор & Компрессор</h3>
+          <p data-mn="Дизель генератор, компрессор, инвертор, софт стартер, давтамж хувиргагч нийлүүлэлт"
+            data-en="Supply of diesel generators, compressors, inverters, soft starters, frequency converters">Дизель
+            генератор, компрессор, инвертор, софт стартер, давтамж хувиргагч нийлүүлэлт</p>
+        </div>
+        <div class="svc-card reveal">
+          <div class="svc-icon">🔌</div>
+          <h3 data-mn="Цахилгаан тоноглол" data-en="Electrical Equipment">Цахилгаан тоноглол</h3>
+          <p data-mn="Вакум таслуур, реклоузер, гүйдлийн трансформатор, изолятор, аянга зайлуулагч"
+            data-en="Vacuum breakers, reclosers, current transformers, insulators, surge arresters">Вакум таслуур,
+            реклоузер, гүйдлийн трансформатор, изолятор, аянга зайлуулагч</p>
+        </div>
+        <div class="svc-card reveal">
+          <div class="svc-icon">🔩</div>
+          <h3 data-mn="Төмөр бетон шон" data-en="Concrete Poles">Төмөр бетон шон</h3>
+          <p data-mn="26 м хүртэлх урттай СК-26 маркийн залгаасгүй төмөр бетон тулгуур үйлдвэрлэл"
+            data-en="Seamless SK-26 reinforced concrete poles up to 26 meters in length">26 м хүртэлх урттай СК-26
+            маркийн залгаасгүй төмөр бетон тулгуур үйлдвэрлэл</p>
+        </div>
+        <div class="svc-card reveal">
+          <div class="svc-icon">☀️</div>
+          <h3 data-mn="Сэргээгдэх эрчим хүч" data-en="Renewable Energy">Сэргээгдэх эрчим хүч</h3>
+          <p data-mn="Нарны болон сэргээгдэх эрчим хүчний тоног төхөөрөмж нийлүүлэлт, суурилуулалт"
+            data-en="Supply and installation of solar and renewable energy equipment">Нарны болон сэргээгдэх эрчим
+            хүчний тоног төхөөрөмж нийлүүлэлт, суурилуулалт</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ MONGOLIAN CLIENTS — PRIMARY / HERO SECTION ═══ -->
+  <section class="clients-hero">
+    <div class="sec-inner">
+      <div class="sec-header reveal" style="display:block;">
+        <div class="sec-overline" data-mn="Монголын захиалагч байгууллагууд" data-en="Our Mongolian Clients">Монголын
+          захиалагч байгууллагууд</div>
+        <h2 class="sec-title" data-mn='Хамтран ажилласан <em>түншүүд</em>' data-en='Our <em>collaborating partners</em>'>Хамтран ажилласан
+          <em>түншүүд</em></h2>
+        <p class="sec-desc"
+          data-mn="Монголын эрчим хүч, уул уурхай, дэд бүтцийн тэргүүлэгч байгууллагуудтай хамтран ажиллаж байна."
+          data-en="We work with Mongolia's leading energy, mining, and infrastructure organizations.">Монголын эрчим
+          хүч, уул уурхай, дэд бүтцийн тэргүүлэгч байгууллагуудтай хамтран ажиллаж байна.</p>
+      </div>
+      <div class="clients-grid">
+        <div class="client-card reveal">
+          <div class="client-icon"><img src="Partner Company Logos/ЦДҮС.png" alt="ЦДҮС"></div>
+          <h4 data-mn="ЦДҮС ТӨХК" data-en="National Dispatch Center">ЦДҮС ТӨХК</h4>
+          <p data-mn="Эрчим хүчний систем" data-en="Energy System">Эрчим хүчний систем</p>
+        </div>
+        <div class="client-card reveal">
+          <div class="client-icon"><img src="Partner Company Logos/УБЦТС.png" alt="УБЦТС"></div>
+          <h4>УБЦТС</h4>
+          <p data-mn="Цахилгаан түгээх" data-en="Power Distribution">Цахилгаан түгээх</p>
+        </div>
+        <div class="client-card reveal">
+          <div class="client-icon"><img src="Partner Company Logos/ЭДЦС.png" alt="ЭДЦС"></div>
+          <h4 data-mn="ЭДЦС ТӨХК" data-en="EDTS SOE">ЭДЦС ТӨХК</h4>
+          <p data-mn="Эрчим хүчний станц" data-en="Power Station">Эрчим хүчний станц</p>
+        </div>
+        <div class="client-card reveal">
+          <div class="client-icon"><img src="Partner Company Logos/MCS International.jpg" alt="MCS International"></div>
+          <h4 data-mn="М Си Эс Интернэйшнл" data-en="MCS International">М Си Эс Интернэйшнл</h4>
+          <p data-mn="Уул уурхай" data-en="Mining">Уул уурхай</p>
+        </div>
+        <div class="client-card reveal">
+          <div class="client-icon"><img src="Partner Company Logos/Erdenet.png" alt="Эрдэнэт Үйлдвэр"></div>
+          <h4 data-mn="Эрдэнэт Үйлдвэр" data-en="Erdenet Mining">Эрдэнэт Үйлдвэр</h4>
+          <p data-mn="Уул уурхай" data-en="Mining">Уул уурхай</p>
+        </div>
+        <div class="client-card reveal">
+          <div class="client-icon"><img src="Partner Company Logos/Эрдэнэс Тавантолгой.png" alt="Эрдэнэс Тавантолгой"></div>
+          <h4 data-mn="Эрдэнэс Тавантолгой" data-en="Erdenes Tavantolgoi">Эрдэнэс Тавантолгой</h4>
+          <p data-mn="Уул уурхай" data-en="Mining">Уул уурхай</p>
+        </div>
+        <div class="client-card reveal">
+          <div class="client-icon"><img src="Partner Company Logos/Тавантолгой Түлш.png" alt="Тавантолгой Түлш"></div>
+          <h4 data-mn="Тавантолгой Түлш" data-en="Tavantolgoi Tulsh">Тавантолгой Түлш</h4>
+          <p data-mn="Уул уурхай, түлш" data-en="Mining, Fuel">Уул уурхай, түлш</p>
+        </div>
+        <div class="client-card reveal">
+          <div class="client-icon"><img src="Partner Company Logos/Багануур ХК.png" alt="Багануур ХК"></div>
+          <h4 data-mn="Багануур ХК" data-en="Baganuur JSC">Багануур ХК</h4>
+          <p data-mn="Уул уурхай" data-en="Mining">Уул уурхай</p>
+        </div>
+        <div class="client-card reveal">
+          <div class="client-icon"><img src="Partner Company Logos/Иргэний Нисэх.png" alt="Иргэний Нисэхийн ЕГ"></div>
+          <h4 data-mn="Иргэний Нисэхийн ЕГ" data-en="Civil Aviation Authority">Иргэний Нисэхийн ЕГ</h4>
+          <p data-mn="Агаарын тээвэр" data-en="Aviation">Агаарын тээвэр</p>
+        </div>
+        <div class="client-card reveal">
+          <div class="client-icon"><img src="Partner Company Logos/Баруу Бүсийн Эрчим Хүч.jpeg" alt="Баруун Бүсийн ЭХС"></div>
+          <h4 data-mn="Баруун Бүсийн ЭХС" data-en="Western Regional Energy">Баруун Бүсийн ЭХС</h4>
+          <p data-mn="Эрчим хүчний систем" data-en="Energy System">Эрчим хүчний систем</p>
+        </div>
+        <div class="client-card reveal">
+          <div class="client-icon"><img src="Partner Company Logos/ШШГЕГ.png" alt="ШШГЕГ"></div>
+          <h4 data-mn="ШШГЕГ" data-en="General Executive Agency">ШШГЕГ</h4>
+          <p data-mn="Засгийн газар" data-en="Government">Засгийн газар</p>
+        </div>
+        <div class="client-card reveal">
+          <div class="client-icon"><img src="Partner Company Logos/DMP.png" alt="DMP"></div>
+          <h4 data-mn="Дарханы Төмөрлөгийн Үйлдвэр" data-en="Darkhan Metallurgical Plant">Дарханы Төмөрлөгийн Үйлдвэр</h4>
+          <p data-mn="Уул уурхай" data-en="Mining">Уул уурхай</p>
+        </div>
+        <div class="client-card reveal">
+          <div class="client-icon"><img src="Partner Company Logos/Boroo Gold.png" alt="Бороогоулд ХХК"></div>
+          <h4 data-mn="Бороогоулд ХХК" data-en="Boroo Gold LLC">Бороогоулд ХХК</h4>
+          <p data-mn="Алтны уурхай" data-en="Gold Mining">Алтны уурхай</p>
+        </div>
+        <div class="client-card reveal">
+          <div class="client-icon"><img src="Partner Company Logos/Нийслэлийн ЗДТГ.jpg" alt="Нийслэлийн ЗДТГ"></div>
+          <h4 data-mn="Нийслэлийн Засаг Даргын Тамгын Газар" data-en="Capital City Government">Нийслэлийн ЗДТГ</h4>
+          <p data-mn="Засаг захиргаа" data-en="Government">Засаг захиргаа</p>
+        </div>
+        <div class="client-card reveal">
+          <div class="client-icon"><img src="Partner Company Logos/Orkhon.png" alt="Орхон аймгийн ЗДТГ"></div>
+          <h4 data-mn="Орхон аймгийн Засаг Даргын Тамгын Газар" data-en="Orkhon Aimag Governor's Office">Орхон аймгийн ЗДТГ</h4>
+          <p data-mn="Засаг захиргаа" data-en="Government">Засаг захиргаа</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ INTERNATIONAL SUPPLIERS — SECONDARY ═══ -->
+  <section class="suppliers-sec">
+    <div class="sec-inner">
+      <div class="sec-header reveal">
+        <div>
+          <div class="sec-overline" data-mn="Олон улсын түншүүд" data-en="International Suppliers">Олон улсын түншүүд
+          </div>
+          <h2 class="sec-title" data-mn='Үйлдвэрлэгч <em>түншүүд</em>' data-en='Manufacturing <em>partners</em>'>
+            Үйлдвэрлэгч <em>түншүүд</em></h2>
+        </div>
+      </div>
+
+      <div class="supplier-group">
+        <div class="supplier-group-label reveal" data-mn="🇷🇺 ОХУ-ын үйлдвэрлэгчид"
+          data-en="🇷🇺 Russian Manufacturers">🇷🇺 ОХУ-ын үйлдвэрлэгчид</div>
+        <div class="supplier-grid">
+          <div class="supplier-card reveal">
+            <div>
+              <div class="supplier-name" data-mn="Челябинский Компрессорный завод"
+                data-en="Chelyabinsk Compressor Plant">Челябинский Компрессорный завод</div>
+              <div class="supplier-country" data-mn="Челябинск, ОХУ" data-en="Chelyabinsk, Russia">Челябинск, ОХУ</div>
+            </div>
+          </div>
+          <div class="supplier-card reveal">
+            <div>
+              <div class="supplier-name" data-mn="Барнаульский котельный завод" data-en="Barnaul Boiler Plant">
+                Барнаульский котельный завод</div>
+              <div class="supplier-country" data-mn="Барнаул, ОХУ" data-en="Barnaul, Russia">Барнаул, ОХУ</div>
+            </div>
+          </div>
+          <div class="supplier-card reveal">
+            <div>
+              <div class="supplier-name" data-mn="Челябинский завод электрооб."
+                data-en="Chelyabinsk Electrical Equipment Plant">Челябинский завод электрооб.</div>
+              <div class="supplier-country" data-mn="Челябинск, ОХУ" data-en="Chelyabinsk, Russia">Челябинск, ОХУ</div>
+            </div>
+          </div>
+          <div class="supplier-card reveal">
+            <div>
+              <div class="supplier-name" data-mn="ПромЭнергоМаш-Импекс" data-en="PromEnergoMash-Impex">
+                ПромЭнергоМаш-Импекс</div>
+            </div>
+          </div>
+          <div class="supplier-card reveal">
+            <div>
+              <div class="supplier-name" data-mn="БМК-Энерго" data-en="BMK-Energy">БМК-Энерго</div>
+            </div>
+          </div>
+          <div class="supplier-card reveal">
+            <div>
+              <div class="supplier-name" data-mn='ТПК "Алтайгидромаш"' data-en="TPK Altaihydromash">ТПК "Алтайгидромаш"
+              </div>
+            </div>
+          </div>
+          <div class="supplier-card reveal">
+            <div>
+              <div class="supplier-name" data-mn="Энергожелезобетонинвест ЗАО"
+                data-en="Energozhelezobetoninvest JSC">Энергожелезобетонинвест ЗАО</div>
+            </div>
+          </div>
+          <div class="supplier-card reveal">
+            <div>
+              <div class="supplier-name" data-mn="Рыбинскэнергожелезобетон ООО"
+                data-en="RybinskEnergoZhelezobeton LLC">Рыбинскэнергожелезобетон ООО</div>
+            </div>
+          </div>
+          <div class="supplier-card reveal">
+            <div>
+              <div class="supplier-name" data-mn="Союзпищепром ЗАО" data-en="SoyuzPischeProm JSC">Союзпищепром ЗАО</div>
+            </div>
+          </div>
+          <div class="supplier-card reveal">
+            <div>
+              <div class="supplier-name" data-mn="Калугатрансмаш-Сервис ЗАО"
+                data-en="KalugaTransMash-Service JSC">Калугатрансмаш-Сервис ЗАО</div>
+            </div>
+          </div>
+          <div class="supplier-card reveal">
+            <div>
+              <div class="supplier-name" data-mn="Техномаркет ООО" data-en="Technomarket LLC">Техномаркет ООО</div>
+            </div>
+          </div>
+          <div class="supplier-card reveal">
+            <div>
+              <div class="supplier-name" data-mn="Холдинг Кабельный Альянс ЗАО"
+                data-en="Cable Alliance Holding JSC">Холдинг Кабельный Альянс ЗАО</div>
+            </div>
+          </div>
+          <div class="supplier-card reveal">
+            <div>
+              <div class="supplier-name" data-mn="Чебаркульская птица" data-en="Chebarkulskaya Ptitsa">
+                Чебаркульская птица</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="supplier-group">
+        <div class="supplier-group-label reveal" data-mn="🇨🇳 БНХАУ-ын үйлдвэрлэгчид"
+          data-en="🇨🇳 Chinese Manufacturers">🇨🇳 БНХАУ-ын үйлдвэрлэгчид</div>
+        <div class="supplier-grid">
+          <div class="supplier-card reveal">
+            <div>
+              <div class="supplier-name">Hebei Yixin Communication</div>
+              <div class="supplier-country" data-mn="Хэбэй, БНХАУ" data-en="Hebei, China">Хэбэй, БНХАУ</div>
+            </div>
+          </div>
+          <div class="supplier-card reveal">
+            <div>
+              <div class="supplier-name">China Tongbian Electric Power</div>
+              <div class="supplier-country" data-mn="БНХАУ" data-en="China">БНХАУ</div>
+            </div>
+          </div>
+          <div class="supplier-card reveal">
+            <div>
+              <div class="supplier-name">Chenli Special Automobile</div>
+              <div class="supplier-country" data-mn="БНХАУ" data-en="China">БНХАУ</div>
+            </div>
+          </div>
+          <div class="supplier-card reveal">
+            <div>
+              <div class="supplier-name">Fujian Acepow Equipment</div>
+              <div class="supplier-country" data-mn="Фужиан, БНХАУ" data-en="Fujian, China">Фужиан, БНХАУ</div>
+            </div>
+          </div>
+          <div class="supplier-card reveal">
+            <div>
+              <div class="supplier-name">Nanjing Aubo Electronic</div>
+              <div class="supplier-country" data-mn="Нанжин, БНХАУ" data-en="Nanjing, China">Нанжин, БНХАУ</div>
+            </div>
+          </div>
+          <div class="supplier-card reveal">
+            <div>
+              <div class="supplier-name" data-mn="Боэрстн цахилгаан" data-en="Boerstn Electric">Боэрстн цахилгаан</div>
+              <div class="supplier-country" data-mn="БНХАУ" data-en="China">БНХАУ</div>
+            </div>
+          </div>
+          <div class="supplier-card reveal">
+            <div>
+              <div class="supplier-name" data-mn="Жянсү Явэй трансформатор" data-en="Jiangsu Yawei Transformer">Жянсү Явэй трансформатор</div>
+              <div class="supplier-country" data-mn="Жянсү, БНХАУ" data-en="Jiangsu, China">Жянсү, БНХАУ</div>
+            </div>
+          </div>
+          <div class="supplier-card reveal">
+            <div>
+              <div class="supplier-name" data-mn="Эрээн хот Уэйлес импорт, экспортын худалдаа"
+                data-en="Erlian City Weiles Import and Export Trade">Эрээн хот Уэйлес импорт, экспортын худалдаа</div>
+              <div class="supplier-country" data-mn="БНХАУ" data-en="China">БНХАУ</div>
+            </div>
+          </div>
+          <div class="supplier-card reveal">
+            <div>
+              <div class="supplier-name" data-mn="Ёншин цахилгаан эрчим хүчийн материал"
+                data-en="Yongxing Electric Power Materials">Ёншин цахилгаан эрчим хүчийн материал</div>
+              <div class="supplier-country" data-mn="БНХАУ" data-en="China">БНХАУ</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA BAND -->
+  <section class="cta-band">
+    <div class="cta-band-inner reveal">
+      <h2 data-mn="Хамтран ажиллахыг хүсвэл." data-en="Ready to work with us?">Хамтран ажиллахыг хүсвэл.</h2>
+      <p data-mn="Эрчим хүч, уул уурхайн салбарын найдвартай шийдлийг санал болгоё."
+        data-en="Let us offer reliable solutions for energy and mining.">Эрчим хүч, уул уурхайн салбарын найдвартай
+        шийдлийг санал болгоё.</p>
+      <a href="index.html#contact" class="btn btn-accent" data-mn="Холбоо барих →" data-en="Contact Us →">Холбоо барих
+        →</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-left"><img src="Mesa_logo.png" alt="Mesa"><span class="footer-text">© 2026 <a href="#">Mesa
+            Engineering</a> LLC</span></div>
+      <div class="footer-links">
+        <a href="index.html" data-mn="Бидний тухай" data-en="About">Бидний тухай</a>
+        <a href="partners.html" data-mn="Түншүүд" data-en="Partners">Түншүүд</a>
+        <a href="projects.html" data-mn="Төслүүд" data-en="Projects">Төслүүд</a>
+      </div>
+      <div class="footer-text" data-mn="Улаанбаатар, Монгол" data-en="Ulaanbaatar, Mongolia">Улаанбаатар, Монгол</div>
+    </div>
+  </footer>
+
+  <script src="mesa-app.js?v=20260504mobilepolish"></script>
+</body>
+
+</html>
