@@ -7,7 +7,7 @@
   <title>МЕСА ИНЖЕНЕРИНГ | Түншүүд</title>
   <meta name="description"
     content="Mesa Engineering - Trusted partnerships with leading Mongolian, Russian and Chinese companies in energy and mining.">
-  <link rel="stylesheet" href="mesa-theme.css?v=20260504mobilepolish">
+  <link rel="stylesheet" href="mesa-theme.css?v=20260504dropdowns">
 </head>
 
 <body class="page-partners">
@@ -283,10 +283,13 @@
         </div>
       </div>
 
-      <div class="supplier-group">
-        <div class="supplier-group-label reveal" data-mn="🇷🇺 ОХУ-ын үйлдвэрлэгчид"
-          data-en="🇷🇺 Russian Manufacturers">🇷🇺 ОХУ-ын үйлдвэрлэгчид</div>
-        <div class="supplier-grid">
+      <div class="supplier-group reveal">
+        <button type="button" class="supplier-group-toggle" aria-expanded="false" aria-controls="supplier-list-ru">
+          <span class="supplier-group-label" data-mn="🇷🇺 ОХУ-ын үйлдвэрлэгчид"
+            data-en="🇷🇺 Russian Manufacturers">🇷🇺 ОХУ-ын үйлдвэрлэгчид</span>
+          <span class="supplier-group-chevron" aria-hidden="true">▾</span>
+        </button>
+        <div class="supplier-grid" id="supplier-list-ru">
           <div class="supplier-card reveal">
             <div>
               <div class="supplier-name" data-mn="Челябинский Компрессорный завод"
@@ -368,10 +371,13 @@
         </div>
       </div>
 
-      <div class="supplier-group">
-        <div class="supplier-group-label reveal" data-mn="🇨🇳 БНХАУ-ын үйлдвэрлэгчид"
-          data-en="🇨🇳 Chinese Manufacturers">🇨🇳 БНХАУ-ын үйлдвэрлэгчид</div>
-        <div class="supplier-grid">
+      <div class="supplier-group reveal">
+        <button type="button" class="supplier-group-toggle" aria-expanded="false" aria-controls="supplier-list-cn">
+          <span class="supplier-group-label" data-mn="🇨🇳 БНХАУ-ын үйлдвэрлэгчид"
+            data-en="🇨🇳 Chinese Manufacturers">🇨🇳 БНХАУ-ын үйлдвэрлэгчид</span>
+          <span class="supplier-group-chevron" aria-hidden="true">▾</span>
+        </button>
+        <div class="supplier-grid" id="supplier-list-cn">
           <div class="supplier-card reveal">
             <div>
               <div class="supplier-name">Hebei Yixin Communication</div>
@@ -459,7 +465,7 @@
     </div>
   </footer>
 
-  <script src="mesa-app.js?v=20260504mobilepolish"></script>
+  <script src="mesa-app.js?v=20260504dropdowns"></script>
 </body>
 
 </html>

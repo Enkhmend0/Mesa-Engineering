@@ -76,6 +76,15 @@
     }, { passive: true });
   }
 
+  function initSupplierToggles() {
+    document.querySelectorAll('.supplier-group-toggle').forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        var expanded = btn.getAttribute('aria-expanded') === 'true';
+        btn.setAttribute('aria-expanded', expanded ? 'false' : 'true');
+      });
+    });
+  }
+
   function initSun() {
     if (!document.body.classList.contains('page-home')) return;
     if (window.matchMedia && window.matchMedia('(max-width: 860px)').matches) return;
@@ -114,6 +123,7 @@
     initScrollState();
     initMenuClose();
     initCarouselTouch();
+    initSupplierToggles();
     initSun();
   });
 })();
