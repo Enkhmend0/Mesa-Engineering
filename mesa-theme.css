@@ -2172,11 +2172,7 @@ body.is-scrolled .nav-pill {
 .sec-dark .contact-item p,
 .sec-dark .contact-item a {
   color: #2c2d30;
-}
-
-.sec-dark .contact-item a {
-  text-decoration: underline;
-  text-underline-offset: 2px;
+  text-decoration: none;
 }
 
 .sec-dark .contact-item a:hover {
